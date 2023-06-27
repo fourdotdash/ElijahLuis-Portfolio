@@ -13,7 +13,9 @@
   </head>
   <body>
     <div id="preloader"></div>
-    <header class="header container">
+    <header class="header container sticky">
+      <a href="#" class="header__logo container">ELIJAH.</a>
+
       <nav>
         <ul class="header__menu">
           <li>
@@ -39,7 +41,7 @@
               </svg>
             </button>
           </li>
-          <li>
+          <li id="shrink">
             <a
               class="header__resume btn"
               href="https://drive.google.com/file/d/1vgUlTP6-JQA4O8GNgI3P33WFyyxWPNd3/view?usp=sharing"
@@ -527,5 +529,11 @@
     <!-- scripts -->
     <script src="./particle.js"></script>
     <script src="./src/app.js"></script>
+    <script type="text/JavaScript">
+      window.addEventListener("scroll", function{
+        var header = document.querySelector("header");
+        header.classlist.toggle("sticky", window.scrollY > 0)
+      })
+    </script>
   </body>
 </html>
