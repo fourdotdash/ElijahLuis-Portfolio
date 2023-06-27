@@ -20,12 +20,14 @@
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
+  z-index: 999;
 }
 
 .hero__subtitle {
   color: var(--clr-slate800);
   font-size: var(--size-base);
   line-height: 0.9;
+  z-index: 999;
 }
 
 .hero__title {
@@ -34,12 +36,14 @@
   font-size: var(--size-4xl);
   letter-spacing: -0.05em;
   line-height: 0.9;
+  z-index: 999;
 }
 
 .hero__description {
   max-width: 60ch;
   font-size: var(--size-sm);
   color: var(--clr-slate600);
+  z-index: 999;
 }
 
 .hero__btn {
