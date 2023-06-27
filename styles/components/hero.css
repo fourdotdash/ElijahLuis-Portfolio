@@ -10,7 +10,6 @@
 
 .hero #particles-js {
   position: absolute;
-  top: 0;
   left: 0;
   height: 100%;
   width: 100%;
@@ -49,6 +48,7 @@
 .hero__btn {
   text-transform: capitalize;
   font-size: var(--size-sm);
+  z-index: 999;
 }
 
 /* xs */
