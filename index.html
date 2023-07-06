@@ -15,7 +15,6 @@
     <div id="preloader"></div>
     <header class="header container sticky">
       <a href="#" class="header__logo container">ELIJAH.</a>
-
       <nav>
         <ul class="header__menu">
           <li>
@@ -113,6 +112,10 @@
     </div>
     <!-- {/* end of mobile nav */} -->
     <main>
+      <section class="parallax">
+        <img src="landing.jpg" id="LandingPic" />
+        <h2 id="texto">Four</h2>
+      </section>
       <section class="hero container">
         <!-- particles.js container -->
         <div id="particles-js"></div>
@@ -535,5 +538,6 @@
         header.classlist.toggle("sticky", window.scrollY > 0)
       })
     </script>
+    <script src="./src/utils/parallax.js"></script>
   </body>
 </html>

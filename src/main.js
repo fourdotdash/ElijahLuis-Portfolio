@@ -11,6 +11,8 @@ import "../styles/components/footer.css";
 import "../styles/components/mobile-nav.css";
 import "../styles/utils.css";
 // import "../styles/components/particles.css";
+import "../styles/components/parallax.css";
+
 import mobileNav from "./utils/mobile-nav";
 import darkMode from "./utils/dark-mode";
 import lazyLoading from "./utils/lazy-loading";
