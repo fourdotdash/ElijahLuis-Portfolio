@@ -13,7 +13,7 @@
   </head>
   <body>
     <div id="preloader"></div>
-    <header class="header container sticky">
+    <header class="header container">
       <a href="#" class="header__logo container">ELIJAH.</a>
       <nav>
         <ul class="header__menu">
@@ -542,12 +542,5 @@
     <!-- scripts -->
     <script src="./particle.js"></script>
     <script src="./src/app.js"></script>
-    <script type="text/JavaScript">
-      window.addEventListener("scroll", function{
-        var header = document.querySelector("header");
-        header.classlist.toggle("sticky", window.scrollY > 0)
-      })
-    </script>
-    <script src="./src/utils/parallax.js"></script>
   </body>
 </html>
