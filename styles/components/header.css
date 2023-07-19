@@ -12,6 +12,7 @@
 .header__logo {
   display: flex;
   position: relative;
+  width: 75%;
   font-weight: 700;
   color: var(--clr-slate400);
   text-decoration: none;
